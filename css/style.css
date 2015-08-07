@@ -3,7 +3,6 @@ html,body
 	padding: 0px;
 	margin: auto;
 }
-
 @font-face {
     font-family: rb;
     src: url(../rsc/Roboto-Black.ttf);
@@ -13,6 +12,11 @@ html,body
     src: url(../rsc/Roboto-Light.ttf);
 }
 
+.sptr
+{
+  cursor: pointer;
+  z-index: 1000;
+}
 .rl
 {
 	font-family: rl;
@@ -44,6 +48,14 @@ html,body
 .center
 {
   text-align:center;
+}
+.txtl
+{
+  text-align:left;
+}
+.lift
+{
+  margin-top:-640px;
 }
 .f18
 {
@@ -83,7 +95,7 @@ html,body
 #div2
 {
   background: radial-gradient(#fdfdfd, #e3e3e3, #c9c9c9); 
-  height: 700px;
+  height: 655px;
   z-index: 50;
 }
 #tri1
