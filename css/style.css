@@ -69,16 +69,29 @@ html,body
 #div1
 {
 	background: radial-gradient(#fdfdfd, #e3e3e3, #c9c9c9);	
-	height: 650px;
+	height: 600px;
+  z-index: 50;
 }
 #txt
 {
-	font-size: 42px;
+  font-size: 42px;
 }
 #txt2
 {
-	font-size: 32px;
+  font-size: 32px;
 }
+#div2
+{
+  background: radial-gradient(#fdfdfd, #e3e3e3, #c9c9c9); 
+  height: 700px;
+  z-index: 50;
+}
+#tri1
+{
+  z-index: 100;
+  margin-top: -45;
+}
+
 
 
 /*----------------------------------------------------------------------------------------------------*/
