@@ -107,7 +107,7 @@ html,body
 #div3
 {
   background: radial-gradient(#fdfdfd, #e3e3e3, #c9c9c9); 
-  height: 600px;
+  height: 655px;
   z-index: 50;
 }
 #div4
@@ -184,7 +184,7 @@ hr
 }
 
 .polybrain{
-  animation: saturate 4s infinite linear;
+  animation: saturate 4s infinite cubic-bezier(0.79, 0.14, 0.15, 0.86);
 }
 
 @keyframes saturate{
