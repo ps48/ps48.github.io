@@ -12,6 +12,7 @@ html,body
     src: url(../rsc/Roboto-Light.ttf);
 }
 
+
 .sptr
 {
   cursor: pointer;
@@ -103,8 +104,18 @@ html,body
   z-index: 100;
   margin-top: -45;
 }
-
-
+#div3
+{
+  background: radial-gradient(#fdfdfd, #e3e3e3, #c9c9c9); 
+  height: 600px;
+  z-index: 50;
+}
+#div4
+{
+  background: radial-gradient(#fdfdfd, #e3e3e3, #c9c9c9); 
+  height: 655px;
+  z-index: 50;
+}
 
 /*----------------------------------------------------------------------------------------------------*/
 /*---------------------------------------Bootstrap override-------------------------------------------*/
@@ -171,3 +182,22 @@ hr
     background-color: #3d3d3d;
     border:transparent;
 }
+
+.polybrain{
+  animation: saturate 4s infinite linear;
+}
+
+@keyframes saturate{
+  from {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+
