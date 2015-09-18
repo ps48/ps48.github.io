@@ -67,6 +67,28 @@ html,body
 	padding: 0px;
 	margin: auto;
 }
+.topmar
+{
+  margin-top: 5%;
+}
+.dummy 
+{
+  margin-top: 100%;
+}
+.thumbnail 
+{
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    text-align:center;
+    padding-top:calc(50% - 30px);
+}
+.ri
+{
+  text-align: right;
+}
 
 #bln
 {
@@ -107,7 +129,6 @@ html,body
 #div3
 {
   background: radial-gradient(#fdfdfd, #e3e3e3, #c9c9c9); 
-  height: 655px;
   z-index: 50;
 }
 #div4
@@ -116,6 +137,7 @@ html,body
   height: 655px;
   z-index: 50;
 }
+
 
 /*----------------------------------------------------------------------------------------------------*/
 /*---------------------------------------Bootstrap override-------------------------------------------*/
