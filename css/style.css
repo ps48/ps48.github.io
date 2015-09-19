@@ -100,7 +100,12 @@ h3
 {
   position: relative;
   height: 80px;
-  
+}
+.icn:hover
+{
+  position: relative;
+  height: 80px;
+  opacity: 0.7;
 }
 
 #bln
