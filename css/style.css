@@ -11,7 +11,10 @@ html,body
     font-family: rl;
     src: url(../rsc/Roboto-Light.ttf);
 }
-
+h3
+{
+  font-family: rl;
+}
 
 .sptr
 {
@@ -58,6 +61,10 @@ html,body
 {
   margin-top:-640px;
 }
+.lift2
+{
+  margin-top:-420px;
+}
 .f18
 {
 	font-size: 18px;
@@ -88,6 +95,12 @@ html,body
 .ri
 {
   text-align: right;
+}
+.icn
+{
+  position: relative;
+  height: 80px;
+  
 }
 
 #bln
@@ -134,10 +147,15 @@ html,body
 #div4
 {
   background: radial-gradient(#fdfdfd, #e3e3e3, #c9c9c9); 
+  height: 455px;
+  z-index: 50;
+}
+#div5
+{
+  background: radial-gradient(#fdfdfd, #e3e3e3, #c9c9c9); 
   height: 655px;
   z-index: 50;
 }
-
 
 /*----------------------------------------------------------------------------------------------------*/
 /*---------------------------------------Bootstrap override-------------------------------------------*/
@@ -206,7 +224,7 @@ hr
 }
 
 .polybrain{
-  animation: saturate 4s infinite cubic-bezier(0.79, 0.14, 0.15, 0.86);
+  animation: saturate 4s infinite linear;
 }
 
 @keyframes saturate{
