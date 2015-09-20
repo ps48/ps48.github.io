@@ -39,7 +39,12 @@ h3
 }
 .spacer
 {
+
   margin-top:40px;
+}
+.lspacer
+{
+  margin-top:70px;
 }
 .smspacer
 {
@@ -64,6 +69,10 @@ h3
 .lift2
 {
   margin-top:-420px;
+}
+.lift3
+{
+  margin-top:-400px;
 }
 .f18
 {
@@ -107,6 +116,10 @@ h3
   height: 80px;
   opacity: 0.7;
 }
+.lifts
+{
+  margin-top: -15px;
+}
 
 #bln
 {
@@ -114,10 +127,6 @@ h3
 	width: 100%;
 	height: 5px;
 	margin-top: -15px;
-}
-#main
-{
-
 }
 #div1
 {
