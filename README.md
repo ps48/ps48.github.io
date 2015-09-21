@@ -1,17 +1,5 @@
-ps48cf
-======
+ps48 
 
-                                                           _  _    ___
-                                                 _ __  ___| || |  ( _ )
-                                                | '_ \/ __| || |_ / _ \
-                                                | |_) \__ \__   _| (_) |
-                                                | .__/|___/  |_|  \___/
-                                                |_|
-
-
-ps48.cf 
-
-afraid dns
-
-google cloud 
-
+#pshenoy.me
+##digitalocean 
+##nginx
