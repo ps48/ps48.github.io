@@ -1,260 +1,639 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Pratik Shenoy</title>
-	<meta name=viewport content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="shortcut icon" type="image/png" href="rsc/favicn.ico">
+
+  <title>Shenoy Pratik</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <!-- Fonts -->
+  <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome.min.css">
+  <!-- Icon -->
+  <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css">
+  <!-- Slicknav -->
+  <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+  <!-- Menu CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/menu_sideslide.css">
+  <!-- Slider CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/slide-style.css">
+  <!-- Nivo Lightbox -->
+  <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css">
+  <!-- Animate -->
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+  <!-- Main Style -->
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <!-- Responsive Style -->
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 </head>
 
 <body>
-<div class="container-fluid col-lg-12 " id="main">
-	
-	<div class="container-fluid col-lg-12 col-md-12" id="div1">
-	 
-		 <nav class="navbar navbar-inverse f18">
-          <div class="container-fluid ">
-      		<div class="rl gr hidden-lg hidden-md hidden-sm col-xs-8">
-      			<div class="smspacer"></div>
-      			<div class="sxspacer f18">
-      				Pratik Shenoy
-      			</div>
-      		</div>
-              <div class="navbar-header col-xs-4 col-sm-4">
-                    <button type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="rb bl center">Menu</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                    </button>
-              </div>
-              <div class="collapse navbar-collapse center" id="myNavbar">
-                  <ul class="nav navbar-nav col-lg-12 rb gr">
-                  	<li class="col-lg-1 col-md-1 col-sm-1"></li>
-                    <li class="col-lg-2 col-md-2 col-sm-2"><a class="scroll" target="div2">About Me</a></li>
-                    <li class="col-lg-2 col-md-2 col-sm-2"><a class="scroll" target="div3">Projects</a></li>
-                    <li class="col-lg-2 col-md-2 col-sm-2"><a class="scroll" target="div4">Education</a></li>
-                    <li class="col-lg-2 col-md-2 col-sm-2"><a class="scroll" target="div5">Resume</a></li>
-                    <li class="col-lg-2 col-md-2 col-sm-2"><a class="scroll" target="div6">Contact</a></li>
-                    <li class="col-lg-1 col-md-1 col-sm-1"></li>
-                  </ul>
-              </div>
+
+  <!-- Header Area wrapper Starts -->
+  <header id="header-wrap">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
+            aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="icon-menu"></span>
+            <span class="icon-menu"></span>
+            <span class="icon-menu"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">
+            <img class="navbar-brand-img polybrain" src="assets/img/brain.png" alt="">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-navbar">
+          <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
+            <li class="nav-item active">
+              <a class="nav-link" href="#hero-area">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">
+                Interests
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">
+                Resume
+              </a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#portfolios">
+                Work
+              </a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Mobile Menu Start -->
+      <ul class="onepage-nev mobile-menu">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">about</a>
+        </li>
+        <li>
+          <a href="#services">Interests</a>
+        </li>
+        <li>
+          <a href="#resume">resume</a>
+        </li>
+        <!-- <li>
+          <a href="#portfolio">Work</a>
+        </li> -->
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <!-- Mobile Menu End -->
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Area Start -->
+    <div id="hero-area" class="hero-area-bg">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 text-center">
+            <div class="contents">
+              <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Hi This is</h5>
+              <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">Shenoy Pratik</h2>
+              <p class="script-font wow fadeInUp" data-wow-delay="0.6s">Software and ML Engineer</p>
+              <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
+                <li>
+                  <a class="twitter" href="https://twitter.com/pshenoy36"><i class="icon-social-twitter"></i></a>
+                </li>
+                <li>
+                  <a class="github" href="https://github.com/ps48"><i class="icon-social-github"></i></a>
+                </li>
+                <li>
+                  <a class="linkedin" href="https://www.linkedin.com/in/pshenoy36/"><i
+                      class="icon-social-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </nav>
-
-
-        <div id="bln"></div>
-     	
-     	<center>
-        <div class="spacer"></div>
-        <img src="rsc/brain.png" class="img-responsive polybrain" alt="polybrain"> 
-        <div class="rl bl" id="txt">
-        	Pratik Shenoy
         </div>
-        <div class="rb gr" id="txt2">
-        	Student | HCI &amp; Cloud Enthusiast  
+      </div>
+    </div>
+    <!-- Hero Area End -->
+
+  </header>
+  <!-- Header Area wrapper End -->
+
+  <!-- About Section Start -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
+            <img class="img-fluid" src="assets/img/about/shenoy_pratik.jpg" alt="">
+          </div>
         </div>
-        <div class="smspacer"></div>
-        <div class="scroll" target="div2"> 	 	
-        <img src="rsc/arrow.png" class="img-responsive hidden-sm hidden-xs hidden-md sptr" alt=">><<"> 
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
+            <h3>Hello World!</h3>
+            <div class="profile-content">
+              <p>
+                I'm an experienced SDE/MLE working in the software industry for past 6+ years. Currently,
+                working at Amazon Web Services. I develop and contribute to OpenSearch-Project.
+                My work focuses on intersection of Observability, Search and ML.
+              </p>
+              <br />
+              <p>
+                I graduated from University of Southern California in 2021, specializing in computer vision and deep
+                learning. I was working as a research assistant at the Information Sciences Institute, towards building
+                a DeepFake detection pipelines.
+                My other projects involved developing an algorithm to detect images generated from GAN architectures,
+                distinguishing between real and fake images.</p>
+              <br />
+              <p>
+                Previously, I was part of SAP Labs solving object detection and recognition in the areas of retail and
+                intelligent process automation. I have a proven history of building machine learning services including
+                ideation, implementing architectures, training models and putting ML APIs to production.</p>
+              <br />
+              <p>
+                Apart from Computer Science I love traveling, checking out new places and tasting new delicacies.
+              </p>
+            </div>
+            <div class="about-profile">
+              <ul class="admin-profile">
+                <li><span class="pro-title"> Name </span> <span class="pro-detail">Shenoy Pratik Gurudatt</span></li>
+                <li><span class="pro-title"> Experience </span> <span class="pro-detail">6+ Years</span></li>
+                <li><span class="pro-title"> Country </span> <span class="pro-detail">USA</span></li>
+                <li><span class="pro-title"> Location </span> <span class="pro-detail">Seattle, CA</span></li>
+                <li><span class="pro-title"> e-mail </span> <span class="pro-detail">pshenoy36@gmail.com</span></li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-common"><i class="icon-paper-clip"></i> Download Resume</a>
+            <a href="#contact" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a>
+          </div>
         </div>
-        </center>
-        
-	</div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End -->
 
-	
-	<div class="container-fluid col-lg-12 col-md-12" id="div2">
-		<svg height="100" width="100%" id="tri1" viewBox="0 0 1350 100" preserveAspectRatio="none" >
-		  <polygon points="0,0 1350,100 0,100" style="fill:#00a8ff" />
-		</svg>
-		
-		<svg width="100%" height="430" id="rect2" >
-			<rect width="100%" height="430" style="fill:#00a8ff;">
-		</svg>
+  <!-- Services Section Start -->
+  <section id="services" class="services section-padding">
+    <h2 class="section-title wow flipInX" data-wow-delay="0.4s">What I do</h2>
+    <div class="container">
+      <div class="row">
+        <!-- Services item -->
+        <div class="col-md-4 col-lg-4 col-xs-12">
+          <div class="services-item wow fadeInDown" data-wow-delay="0.3s">
+            <div class="icon">
+              <i class="icon-eye"></i>
+            </div>
+            <div class="services-content">
+              <h3><a href="#">Computer Vision</a></h3>
+              <p>Developing production grade deep learning models with modern tools like Tensorflow,
+                Pytorch, MLFlow, OpenCV.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Services item -->
+        <div class="col-md-4 col-lg-4 col-xs-12">
+          <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
+            <div class="icon">
+              <i class="icon-layers"></i>
+            </div>
+            <div class="services-content">
+              <h3><a href="#">Full Stack Development</a></h3>
+              <p>Working on web apps which are scalable and cloud-native. Implementing apps in TypeScript,
+                Javascript, React, Java, Kotlin.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Services item -->
+        <div class="col-md-4 col-lg-4 col-xs-12">
+          <div class="services-item wow fadeInDown" data-wow-delay="0.9s">
+            <div class="icon">
+              <i class="icon-chart"></i>
+            </div>
+            <div class="services-content">
+              <h3><a href="#">Machine Learning</a></h3>
+              <p>Building statistical models and publishing them as APIs with Python, Flask, Numpy, Scipy, Scikit-learn,
+                Pandas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Services Section End -->
 
-		<svg height="100" width="100%" id="tri2" viewBox="0 0 1350 100" preserveAspectRatio="none" >
-		  <polygon points="0,0 1350,0 0,100" style="fill:#00a8ff" />
-		</svg>
+  <!-- Resume Section Start -->
+  <div id="resume" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="education wow fadeInRight" data-wow-delay="0.3s">
+            <ul class="timeline">
+              <li>
+                <i class="icon-graduation"></i>
+                <h2 class="timelin-title">Education</h2>
+              </li>
+              <li>
+                <div class="content-text">
+                  <h3 class="line-title">M.S. Computer Science - University of Southern California</h3>
+                  <span>2019 - 2021</span>
+                  <p class="line-text">Specializing in Computer Vision, Databases and Data Mining. My projects involved
+                    implementing AI algorithms, working with Big Data and Deep RL networks for game automation. </p>
+                </div>
+              </li>
+              <li>
+                <div class="content-text">
+                  <h3 class="line-title">B.Tech. Computer Science - SRM University</h3>
+                  <span>2012 - 2016</span>
+                  <p class="line-text">My core subjects included Software Engineering, Soft Computing, Object Oriented
+                    Programming and Human Co.mputer Interaction. My Bachelor Thesis was based on wireless communication
+                    with DTMF tones.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="experience wow fadeInRight" data-wow-delay="0.6s">
+            <ul class="timeline">
+              <li>
+                <i class="icon-briefcase"></i>
+                <h2 class="timelin-title">Experience</h2>
+              </li>
+              <li>
+                <div class="content-text">
+                  <h3 class="line-title">Software Engineer - Amazon Web Services</h3>
+                  <span>July 2021 - Present</span>
+                  <p class="line-text">Maintainer and Contributor to the OpenSearch-project, as Open Source Initivate of
+                    AWS. Spefically working on Observability and Search Relevance projects. Actively engage with
+                    community and give talks at conferences</p>
+                </div>
+              </li>
+              <li>
+                <div class="content-text">
+                  <h3 class="line-title">Graduate Reasearch Assistant - Information Sciences Institute</h3>
+                  <span>Oct 2019 - May 2021</span>
+                  <p class="line-text">Worked in the Vimal Lab at USC-ISI guided by Dr. Wael Abd-Almageed. Developed
+                    Deep Learning models to distinguish GAN generated deep fake videos and images with real ones.</p>
+                </div>
+              </li>
+              <li>
+                <div class="content-text">
+                  <h3 class="line-title">Machine Learning Engineer - SAP Labs</h3>
+                  <span>Feb 2016 - June 2016</span>
+                  <p class="line-text">Designed Computer Vision pipeline for product detection and recognition in
+                    retail. Generated thousands of images using augmentation and set a training/inference pipeline for
+                    continuous evaluation of models. Published ML APIs in production for scale usage.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Resume Section End -->
+  <!-- 
 
-		<div class="container lift">
-			<h1 class="rb gr txtl">About Me</h1>
-			<div class="spacer hidden-xs hidden-sm"></div>
-			<div class="txtl rb gr">
-					<h2>Who am I?</h2>
-					<h3>Hello! Pratik here, Nice to meet you!</h3>
-					<h2>What do I do?</h2>
-					<h3>Currently in Senior Year pursuing B.Tech in Computer Science and Engineering in Chennai.</h3>
-					<h2>What I love to do?</h2>
-					<h3>Apart from Computer Science I love traveling, checking out new places and tasting new delicacies. </h3>
-			</div>
-		</div>
+  <section id="portfolios" class="section-padding">
+    
+    <div class="container">
+      <h2 class="section-title wow flipInX" data-wow-delay="0.4s">My Remarkable Works</h2>
+      <div class="row">
+        <div class="col-md-12">
+   
+          <div class="controls text-center">
+            <a class="filter active btn btn-common" data-filter="all">
+              All
+            </a>
+            <a class="filter btn btn-common" data-filter=".design">
+              Design
+            </a>
+            <a class="filter btn btn-common" data-filter=".development">
+              Development
+            </a>
+            <a class="filter btn btn-common" data-filter=".print">
+              Print
+            </a>
+          </div>
+   
+        </div>
 
-	</div>
+   
+        <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
+          <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="assets/img/gallery/img-1.jpg" alt="" />
+                <div class="overlay">
+                  <div class="icons">
+                    <a class="lightbox preview" href="assets/img/gallery/img-1.jpg">
+                      <i class="icon-eye"></i>
+                    </a>
+                    <a class="link" href="#">
+                      <i class="icon-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="assets/img/gallery/img-2.jpg" alt="" />
+                <div class="overlay">
+                  <div class="icons">
+                    <a class="lightbox preview" href="assets/img/gallery/img-2.jpg">
+                      <i class="icon-eye"></i>
+                    </a>
+                    <a class="link" href="#">
+                      <i class="icon-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="assets/img/gallery/img-3.jpg" alt="" />
+                <div class="overlay">
+                  <div class="icons">
+                    <a class="lightbox preview" href="assets/img/gallery/img-3.jpg">
+                      <i class="icon-eye"></i>
+                    </a>
+                    <a class="link" href="#">
+                      <i class="icon-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development design">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="assets/img/gallery/img-4.jpg" alt="" />
+                <div class="overlay">
+                  <div class="icons">
+                    <a class="lightbox preview" href="assets/img/gallery/img-4.jpg">
+                      <i class="icon-eye"></i>
+                    </a>
+                    <a class="link" href="#">
+                      <i class="icon-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="assets/img/gallery/img-5.jpg" alt="" />
+                <div class="overlay">
+                  <div class="icons">
+                    <a class="lightbox preview" href="assets/img/gallery/img-5.jpg">
+                      <i class="icon-eye"></i>
+                    </a>
+                    <a class="link" href="#">
+                      <i class="icon-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix print design">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="assets/img/gallery/img-6.jpg" alt="" />
+                <div class="overlay">
+                  <div class="icons">
+                    <a class="lightbox preview" href="assets/img/gallery/img-6.jpg">
+                      <i class="icon-eye"></i>
+                    </a>
+                    <a class="link" href="#">
+                      <i class="icon-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	<div class="container-fluid col-lg-12 col-md-12" id="div3">
+  </section>
 
-		<div class="container">
-			<h1 class="rb gr txt ri">Projects</h1>
-			<div class="spacer hidden-xs hidden-sm"></div>
-			<div class="row rb f30">
-		  
-		      <div class="col-md-3 col-sm-4 col-xs-6">
-		        <div class="dummy"></div>
-		        <a href="#" id="s1" class="thumbnail purple" data-toggle="modal" data-target="#m1"><p>SIP</p></a>
-		      </div>
-		      <div class="col-md-3 col-sm-4 col-xs-6">
-		        <div class="dummy"></div>
-		        <a href="#" id="s2" class="thumbnail purple" data-toggle="modal" data-target="#m1"><p>Life Plus</p></a>
-		      </div>
-		      <div class="col-md-3 col-sm-4 col-xs-6">
-		        <div class="dummy"></div>
-		        <a href="#" id="s3" class="thumbnail purple" data-toggle="modal" data-target="#m1"><p>Genre-ist</p></a>
-			   </div>
-		       <div class="col-md-3 col-sm-4 col-xs-6">
-		        <div class="dummy"></div>
-		        <a href="#" id="s4" class="thumbnail purple" data-toggle="modal" data-target="#m1"><p>Aaruush '15</p></a>
-			   </div>
-		       <div class="col-md-3 col-sm-4 col-xs-6">
-		        <div class="dummy"></div>
-		        <a href="#" id="s5" class="thumbnail purple" data-toggle="modal" data-target="#m1"><p>SRM Walk</p></a>
-		      </div>
-		      <div class="col-md-3 col-sm-4 col-xs-6">
-		        <div class="dummy"></div>
-		        <a href="#" id="s6" class="thumbnail purple" data-toggle="modal" data-target="#m1"><p>Android App</p></a>
-		      </div>
-		      <div class="col-md-3 col-sm-4 col-xs-6">
-		        <div class="dummy"></div>
-		        <a href="#" id="s7" class="thumbnail purple" data-toggle="modal" data-target="#m1"><p>SRM SE</p></a>
-			   </div>
-		       <div class="col-md-3 col-sm-4 col-xs-6">
-		        <div class="dummy"></div>
-		        <a href="#" id="s8" class="thumbnail purple" data-toggle="modal" data-target="#m1"><p>Report Portal</p></a>
-			   </div>
-		      
-		  	</div>
-		  	<div class="spacer"></div>
-		</div>
-		<div class="spacer"></div>
-	</div>
+  <section class="counter-section section-padding">
+    <div class="container">
+      <div class="row">
+      
+        <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+          <div class="counter wow fadeInDown" data-wow-delay="0.3s">
+            <div class="icon"><i class="icon-briefcase"></i></div>
+            <div class="counterUp">250</div>
+            <p>Project Working</p>
+          </div>
+        </div>
+       
+        <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+          <div class="counter wow fadeInDown" data-wow-delay="0.6s">
+            <div class="icon"><i class="icon-check"></i></div>
+            <div class="counterUp">2</div>
+            <p>Conference Talks</p>
+          </div>
+        </div>
+       
+        <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+          <div class="counter wow fadeInDown" data-wow-delay="0.9s">
+            <div class="icon"><i class="icon-diamond"></i></div>
+            <div class="counterUp">2</div>
+            <p>Patents</p>
+          </div>
+        </div>
+       
+        <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+          <div class="counter wow fadeInDown" data-wow-delay="1.2s">
+            <div class="icon"><i class="icon-heart"></i></div>
+            <div class="counterUp">1</div>
+            <p>Reasearch Paper</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  	<div class="container-fluid col-lg-12 col-md-12" id="div4">
-		<svg height="100" width="100%" id="tri1" viewBox="0 0 1350 100" preserveAspectRatio="none" >
-		  <polygon points="0,0 1350,100 0,100" style="fill:#00a8ff" />
-		</svg>
-		
-		<svg width="100%" height="400" id="rect2" >
-			<rect width="100%" height="400" style="fill:#00a8ff;">
-		</svg>
+  -->
+  <!-- Contact Section Start -->
+  <section id="contact" class="section-padding">
+    <div class="contact-form">
+      <div class="container">
+        <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">
+          <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="contact-block">
+              <h2>Contact Form</h2>
+              <form id="contactForm">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Name" required
+                        data-error="Please enter your name">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" placeholder="Email" id="email" class="form-control" name="email" required
+                        data-error="Please enter your email">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required
+                        data-error="Please enter your subject">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea class="form-control" id="myText-message" placeholder="Your Message" rows="5"
+                        data-error="Write your message" required></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="submit-button">
+                      <button class="btn btn-common" onclick="sendMail(); return false">
+                        Send Message
+                      </button>
+                      <div id="msgSubmit" class="h3 text-center hidden"></div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="footer-right-area wow fadeIn">
+              <h2>Contact Address</h2>
+              <div class="footer-right-contact">
+                <div class="single-contact">
+                  <div class="contact-icon">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <p>Seattle, WA</p>
+                </div>
+                <div class="single-contact">
+                  <div class="contact-icon">
+                    <i class="fa fa-envelope"></i>
+                  </div>
+                  <p><a href="mailto:pshenoy36@gmail.com">pshenoy36@gmail.com</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.2891732782246!2d-122.35146608424748!3d47.620509895010066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490151f4ed5b7f9%3A0xdb2ba8689ed0920d!2sSpace%20Needle!5e0!3m2!1sen!2sus!4v1673212552778!5m2!1sen!2sus"
+              width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section End -->
 
-		<div class="container lift2">
-			<h1 class="rb gr txtl">Education</h1>
-			<div class="spacer hidden-xs hidden-sm"></div>
-			<div class="txtl rb gr">
-				
-					<h2>B.Tech Computer Science and Engineering</h2>
-					<h3>CGPA - 8.96 (Till VI Semeter)</h3>
-					<h2>Class XII CBSE</h2>
-					<h3>Physics, Maths, Chemistry and Computer Science - 89.8%</h3>
-					<h2>Class X CBSE</h2>
-					<h3>CGPA - 9.8</h3>
-					
-			</div>
-		</div>
+  <!-- Footer Section Start -->
+  <footer class="footer-area section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
+            <ul class="social-icon">
+              <li>
+                <a class="twitter" href="https://twitter.com/pshenoy36"><i class="icon-social-twitter"></i></a>
+              </li>
+              <li>
+                <a class="github" href="https://github.com/ps48"><i class="icon-social-github"></i></a>
+              </li>
+              <li>
+                <a class="linkedin" href="https://www.linkedin.com/in/pshenoy36/"><i
+                    class="icon-social-linkedin"></i></a>
+              </li>
+            </ul>
+            <p>Copyright © ps48/UIdeck All Right Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Section End -->
 
-	</div>
+  <!-- Go to Top Link -->
+  <a href="#" class="back-to-top">
+    <i class="icon-arrow-up"></i>
+  </a>
 
-	<div class="container-fluid col-lg-12 col-md-12" id="div5">
-	
-		<svg height="100" width="100%" id="tri2" viewBox="0 0 1350 100" preserveAspectRatio="none" >
-		  <polygon points="0,0 1350,0 0,100" style="fill:#00a8ff" />
-		</svg>
-	
-		<div class="container">
-			<h1 class="rb gr txt ri">Resume</h1>
-			<div class="spacer hidden-xs hidden-sm"></div>
-				<div class="container">
-					<div class="row center">
-						<div class="spacer"></div>
-						<div class="col-md-3 col-sm-3 col-xs-3">
-							<a href="./rsc/resume.pdf" target="_blank">
-					       		<img src="./rsc/pdf.png" class="icn img-responsive">
-					   		</a>
-					     </div>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="assets/js/jquery-min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.mixitup.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/jquery.nav.js"></script>
+  <script src="assets/js/jquery.easing.min.js"></script>
+  <script src="assets/js/nivo-lightbox.js"></script>
+  <script src="assets/js/jquery.slicknav.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/form-validator.min.js"></script>
+  <script src="assets/js/contact-form-script.min.js"></script>
+  <script src="assets/js/map.js"></script>
+  <script>
+    function sendMail() {
+      var link = "mailto:pshenoy36@gmail.com"
+        + "&subject=" + encodeURIComponent(document.getElementById("msg_subject").value)
+        + "&body=" + encodeURIComponent(document.getElementById('myText-message').value)
+        + encodeURIComponent("\n\n" + "from: " + document.getElementById('name').value)
+        + encodeURIComponent("\n" + "email: " + document.getElementById('email').value)
+        ;
 
-					     <div class="col-md-3 col-sm-3 col-xs-3">
-					     	<a href="https://in.linkedin.com/in/pshenoy36" target="_blank">
-					       		<img src="./rsc/in.png" class="icn img-responsive">
-					       	</a>	
-					     </div>
-
-					     <div class="col-md-3 col-sm-3 col-xs-3">
-					       <a href="http://github.com/ps48" target="_blank">
-					       		<img src="./rsc/git.png" class="icn img-responsive">
-					       	</a>	
-					     </div>
-
-					     <div class="col-md-3 col-sm-3 col-xs-3">
-					       <a href="https://www.behance.net/ps48" target="_blank">	
-					       	<img src="./rsc/be.png" class="icn img-responsive">
-					       </a>	
-					     </div>
-					   
-				 	</div>
-				 </div>	
-		 	<div class="lspacer"></div>
-		</div>	
-
-		<div class="lspacer"></div>
-
-		<svg height="100" width="100%" id="tri1" viewBox="0 0 1350 100" preserveAspectRatio="none" >
-		  <polygon points="1350,0 1350,100 0,100" style="fill:#00a8ff" />
-
-		</svg>
-		<svg width="100%" height="300" id="rect2" >
-			<rect width="100%" height="300" style="fill:#00a8ff;">
-		</svg>
-
-		<div class="container lift3 center" id="div6">
-			<h1 class="rb gr txt ri lifts">Contact Me</h1>
-			<div class="lspacer"></div>
-			<div class="row">
-				
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-					<img src="./rsc/prats.jpg" class="img-circle" alt="Cinque Terre" width="150" height="150">
-				</div>		
-			 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 fvw">
-			 		Mail: <a href="mailto:contact@pshenoy.me" target="_top" class="wh">contact@pshenoy.me</a>
-			 	</div>
-			 
-	     	 </div>
-		 	
-	  </div>	
-
-	</div>
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>	
-<script src="js/script.js" type="text/javascript"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
-
-<div id="m1" class="modal fade" role="dialog">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal">&times;</button>
-	        <h4 class="modal-title" id="mtitle"></h4>
-	      </div>
-	      <div class="modal-body">
-	        <p id="mbody"></p>
-	      </div>
-	    </div>
-	  </div>
- </div>
-
+      window.location.href = link;
+    }
+  </script>
 </body>
-
-
 
 </html>
